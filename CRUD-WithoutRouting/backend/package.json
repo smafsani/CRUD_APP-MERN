@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "It is a simple CRUD app, a user management application that allows administrators to Create, Read, Update, and Delete user information. The app is built using MongoDB, Express.js, React.js, and Node.js, providing a user-friendly interface for managin user data.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Syed Md. Afsani",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.4.1",
+    "nodemon": "^3.0.1",
+    "uuid": "^9.0.0"
+  }
+}
